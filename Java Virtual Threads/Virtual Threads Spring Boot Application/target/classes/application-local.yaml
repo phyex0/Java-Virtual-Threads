@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: virtual-thread-test
+
+  threads:
+    virtual:
+      enabled: true
+
+server:
+  port: 8081
